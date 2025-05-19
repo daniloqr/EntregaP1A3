@@ -34,8 +34,11 @@ function CadastroRestaurante() {
     <>
 
     <div className={styles.container}>
+      
         <div className={styles.formulario}>
+
           <h2>Cadastro restaurante</h2>
+
           <form onSubmit={registrar} className={styles.form}>
             <input
             className={styles.input}
@@ -70,7 +73,7 @@ function CadastroRestaurante() {
 
           <hr className={styles.divisor} />
 
-          <p className={styles.linkCadastro}>
+        <p className={styles.linkCadastro}>
           
           Não possui uma conta?{' '}
 
@@ -79,7 +82,6 @@ function CadastroRestaurante() {
           </span>
         </p>
         </div>
-
         
         <div className={styles.logoContainer}>
         <img src={logo} alt="Logo Unifood" className={styles.logo} />
