@@ -15,7 +15,6 @@ function CadastroRestaurante() {
     const [erro, setErro] = useState('');
 
 
-
   
   function registrar() {
   navigate("/restaurante/login");
